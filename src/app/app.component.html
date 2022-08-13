@@ -1,9 +1,19 @@
 <div class="container">
     <div class="row">
-        <h3>I'm the AppComponent!</h3>
+        <h3>showing data</h3>
+        <h4>Output data</h4>
+        <p>String interpolation &#123; &#123; data &#125; &#125;</p>
+        <p>Property binding [property]="data"</p>
+        <h4>Reacting to user event</h4>
+        <p>Event binding (event)="expression"</p>
+        <h4>Combination of both</h4>
+        <p>Two way binding [(property)]="data"</p>
         <hr>
         <app-servers></app-servers> <!-- element selektor style-->
         <!-- <div app-servers>Ako je komponenta selektor atribut</div -->
         <!-- <div class="app-servers">Ako je komponenta selektor class </div> -->
+        <hr>        
+        <app-warning-alert></app-warning-alert>
+        <app-success-alert></app-success-alert>
     </div>
 </div>
