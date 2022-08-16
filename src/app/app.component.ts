@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'udemy-first-app';
   name : string = 'Davor';
+  userName: string = '';
+
+  resetUsername() {
+    this.userName = '';
+  }
 }
